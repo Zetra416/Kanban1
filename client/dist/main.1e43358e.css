@@ -1,0 +1,89 @@
+.card-footer[data-v-b1f5fe] {
+  border: 3px dotted black;
+}
+span[data-v-28aa5c] {
+  display: inline;
+  border: 0px;
+  font-size: 30px;
+}
+* {
+  margin: 10px;
+}
+.nav-bar {
+  height: 5vh;
+  background-color: orange;
+  border: 3px solid black;
+  text-shadow: 3px 2px black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.columns {
+  text-shadow: 3px 2px black;
+  color: white;
+  display: flex;
+  align-items: flex-start;
+  word-break: break-all;
+  justify-content: space-around;
+
+}
+
+.tag  {
+  border: 4px dotted black;
+  margin: 30px;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  word-break: break-all;
+  justify-content: space-around;
+
+}
+
+.status-1 {
+  background-color: #ed8077;
+}
+.status-2 {
+  background-color: #4488c5;
+}
+.status-3 {
+  background-color: #5eb5a6;
+}
+.status-4 {
+  background-color: #cee8e4;
+}
+
+.card {
+  margin-bottom: 5px;
+}
+.card-footer-item {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.fade-enter-active, .fade-leave-active {
+  transition: opacity 0.7s;
+}
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+}
+
+#deletePopUp{
+  display: block; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0; top: 0; width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.box{
+  background-color: #fefefe;
+  margin: auto; padding: 20px;
+  border: 1px solid #888;
+  width: 80%
+}

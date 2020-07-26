@@ -1,0 +1,60 @@
+.nav-bar {
+  height: 5vh;
+  background-color: orange;
+  border: 3px solid black;
+  text-shadow: 3px 2px black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px
+}
+
+.columns {
+  text-shadow: 3px 2px black;
+  color: white;
+  display: flex;
+  align-items: flex-start;
+  word-break: break-all;
+  justify-content: space-around;
+}
+
+.tag  {
+  border: 4px dotted black;
+  margin: 30px;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  word-break: break-all;
+  justify-content: space-around;
+
+}
+
+.status-1 {
+  background-color: #ed8077;
+}
+.status-2 {
+  background-color: #4488c5;
+}
+.status-3 {
+  background-color: #5eb5a6;
+}
+.status-4 {
+  background-color: #cee8e4;
+}
+
+.card {
+  margin-bottom: 5px;
+}
+.card-footer-item {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.fade-enter-active, .fade-leave-active {
+  transition: opacity 0.7s;
+}
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+}
+
+
+/*# sourceMappingURL=/style.78032849.css.map */
