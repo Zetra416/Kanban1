@@ -1,6 +1,10 @@
 # kanban
 Creating fancy kanban
 
+for testing :
+email: ayam@email.com
+pass : 123
+
 ### POST /login
 
 > post login
